@@ -3,7 +3,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/bitrix/header.php';
 
 $APPLICATION->SetTitle('Новости');
 
-?><?php $APPLICATION->IncludeComponent("bitrix:news.list", "cardslist", [
+?><?php $APPLICATION->IncludeComponent("bitrix:news.list", "link", [
     "IBLOCK_TYPE" => "cards",
     "IBLOCK_ID" => "8",
     "NEWS_COUNT" => "5",
